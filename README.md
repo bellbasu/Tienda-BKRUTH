@@ -34,7 +34,7 @@ El proyecto simula una tienda online de estética capilar y corporal, con diseñ
 - `index.html`: Página principal con banner, carrusel y navegación
 - `capilar.html`: Categoría de estética capilar
 - `corporal.html`: Categoría de estética corporal
-- `contactos.html`: Página de contacto (estructura lista, formulario en proceso)
+- `contacto.html`: Página de contacto (estructura lista, formulario en proceso)
 - `estilo.css`: Estilos personalizados con enfoque pastel y minimalista
 - `img/`: Carpeta con imágenes de productos y banners
 
