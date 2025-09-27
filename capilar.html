@@ -1,0 +1,166 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Categorías | Tienda BkRUTH</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">BkRUTH</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <!--  -->
+          <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="categoriasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Categorías
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="categoriasDropdown">
+    <li><a class="dropdown-item" href="corporal.html">Estética Corporal</a></li> 
+  </ul>
+</li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- Banner debajo del navbar -->
+<div class="container-fluid p-0">
+  <div class="banner">
+    <img src="img/banner-capilar.webp" alt="Estética Corporal BK" class="img-fluid w-100">
+    <div class="banner-text text-center text-white">
+      <h2 class="display-5 fw-bold">Estética BkRUTH</h2>
+      <p class="lead">Cuidá tu pelo con productos naturales</p>
+    </div>
+  </div>
+</div>
+
+  <!-- Sección: Estética Capilar -->
+  <section id="capilar" class="container mt-5">
+    <h3 class="mb-4 text-center">Estética Capilar</h3>
+    <div class="row">
+      <!-- Producto 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="img/capilar-1.jpg" class="card-img-top" alt="Balayage BK">
+          <div class="card-body">
+            <h5 class="card-title">Balayage BkRUTH</h5>
+            <p class="card-text text-muted">Iluminación natural para tu cabello.</p>
+     <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalProducto1">Solicitar</a>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="img/capilar-2.jpg" class="card-img-top" alt="Diagnóstico Capilar BK">
+          <div class="card-body">
+            <h5 class="card-title">Diagnóstico Capilar BkRUTH</h5>
+            <p class="card-text text-muted">Evaluación personalizada para tu tipo de cabello.</p>
+      <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalProducto2">Solicitar</a>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="img/capilar3.webp" class="card-img-top" alt="Tratamiento caída BK">
+          <div class="card-body">
+            <h5 class="card-title">Tratamientos BkRUTH para caída de pelo</h5>
+            <p class="card-text text-muted"> Resultados visibles.</p>
+        <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalProducto3">Solicitar</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Botón Volver al inicio -->
+  <div class="text-center mt-5 mb-4">
+    <a href="index.html" class="btn btn-primary">Volver al inicio</a>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center p-3 mt-5">
+    © 2025 Tienda BkRUTH. Todos los derechos reservados.
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Modal: Detalle del producto 1 -->
+<div class="modal fade" id="modalProducto1" tabindex="-1" aria-labelledby="modalProducto1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalProducto1Label">Tratamiento capilar BK</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        Innovador tratamiento capilar a través de extractos proteicos,
+       los cuales ayudan a regeneran los folículos pilosos,
+        contrarrestando la caída del cabello, la combinación de un gran número de proteínas, aumenta la oxigenación de las células
+        , nutriendo y fortaleciendo el folículo piloso
+        Hidratación profunda para todo tipo de piel. Ingredientes naturales, textura suave y aroma delicado. Ideal para uso diario.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Producto 2 -->
+<div class="modal fade" id="modalProducto2" tabindex="-1" aria-labelledby="modalProducto2Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalProducto2Label">Exfoliante Natural BK</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        Los pacientes reciban calidez y satisfacción con los tratamientos de forma integral e individualizada.
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Producto 3 -->
+<div class="modal fade" id="modalProducto3" tabindex="-1" aria-labelledby="modalProducto3Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalProducto3Label">Aceite Corporal BK</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        Nutrición profunda con aceites esenciales. Ideal para masajes y cuidado nocturno. No deja sensación grasosa.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

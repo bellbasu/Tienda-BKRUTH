@@ -1,0 +1,156 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Categorías | Tienda BkRUTH</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">BkRUTH</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+             <!--  -->
+          <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="categoriasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Categorías
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="categoriasDropdown">
+    <li><a class="dropdown-item" href="capilar.html">Estética Capilar</a></li>
+    
+  </ul>
+</li>
+          
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- Banner Estética Corporal -->
+<div class="banner">
+  <img src="img/banner.jpeg" alt="Estética Corporal BkRUTH" class="img-fluid w-100">
+  <div class="banner-text">
+    <h2 class="display-5 fw-bold">Estética Corporal BkRUTH</h2>
+    <p class="lead">Cuidá tu piel con nuestros productos naturales</p>
+  </div>
+</div>
+
+  <!-- Sección: Estética Corporal -->
+  <section id="corporal" class="container mt-5">
+    <h3 class="mb-4 text-center">Estética Corporal</h3>
+    <div class="row">
+      <!-- Producto 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="img/cuerpo (1).webp" class="card-img-top" alt="Crema Corporal BK">
+          <div class="card-body">
+            <h5 class="card-title">Crema Corporal BK</h5>
+            <p class="card-text text-muted">Hidratación profunda para todo tipo de piel.</p>
+           <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalProducto1">Info</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="img/cuerpo(2).webp" class="card-img-top" alt="Exfoliante BK">
+          <div class="card-body">
+            <h5 class="card-title">Exfoliante Natural BK</h5>
+            <p class="card-text text-muted">Renovación celular con ingredientes naturales.</p>
+       <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalProducto2">Info</a>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="img/cuerpo(3).webp" class="card-img-top" alt="Aceite Corporal BK">
+          <div class="card-body">
+            <h5 class="card-title">Aceite Corporal BK</h5>
+            <p class="card-text text-muted">Nutrición y suavidad para tu piel corporal.</p>
+            <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalProducto3">Info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Botón Volver al inicio -->
+  <div class="text-center mt-5 mb-4">
+    <a href="index.html" class="btn btn-primary">Volver al inicio</a>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center p-3 mt-5">
+    © 2025 Tienda BkRUTH. Todos los derechos reservados.
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Modal: Detalle del producto 1 -->
+<div class="modal fade" id="modalProducto1" tabindex="-1" aria-labelledby="modalProducto1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalProducto1Label">Crema Corporal BK</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        Hidratación profunda para todo tipo de piel. Ingredientes naturales, textura suave y aroma delicado. Ideal para uso diario.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Modal Producto 2 -->
+<div class="modal fade" id="modalProducto2" tabindex="-1" aria-labelledby="modalProducto2Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalProducto2Label">Exfoliante Natural BK</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        Elimina células muertas con ingredientes naturales. Ideal para piel sensible. Uso recomendado: 2 veces por semana.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Producto 3 -->
+<div class="modal fade" id="modalProducto3" tabindex="-1" aria-labelledby="modalProducto3Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalProducto3Label">Aceite Corporal BK</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        Nutrición profunda con aceites esenciales. Ideal para masajes y cuidado nocturno. No deja sensación grasosa.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
