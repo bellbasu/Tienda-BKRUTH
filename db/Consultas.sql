@@ -1,7 +1,7 @@
--- 1. Ver todos los usuarios
+-- 1. Listar todos los usuarios
 SELECT * FROM USUARIOS;
 
--- 2. Categorías con su creador
+-- 2. Listar las Categorías con su creador
 SELECT 
     c.id_categoria,
     c.Nombre AS Categoria,
@@ -12,7 +12,7 @@ FROM CATEGORIA c
 INNER JOIN USUARIOS u ON c.id_usuario = u.id_usuario
 ORDER BY c.id_categoria;
 
--- 3. Tareas con su categoría
+-- 3. Listar las Tareas con su categoría
 SELECT 
     t.id_tarea,
     t.Titulo,
@@ -42,7 +42,7 @@ FROM
 WHERE
     Estado = 'pendiente';
 
--- 6. Listar usuarios asignados a cada tarea
+-- 6. Listar los usuarios asignados a cada tarea
 SELECT 
     t.id_tarea,
     t.Titulo AS Tarea,
@@ -55,7 +55,7 @@ INNER JOIN TAREAS t ON ut.id_tarea = t.id_tarea
 ORDER BY t.id_tarea, ut.tipo_relacion;
 
 
--- 7. Tareas pendientes ordenadas por vencimiento
+-- 7. Listar las tareas pendientes ordenadas por vencimiento
 SELECT 
     t.Titulo,
     c.Nombre AS Categoria,
@@ -66,7 +66,7 @@ INNER JOIN CATEGORIA c ON t.id_categoria = c.id_categoria
 WHERE t.Estado = 'pendiente'
 ORDER BY t.Fecha_vencimiento ASC;
 
--- 8. Tareas completadas y responsables
+-- 8. Listar las tareas completadas y responsables
 SELECT 
     t.Titulo,
     c.Nombre AS Categoria,
