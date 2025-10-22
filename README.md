@@ -50,7 +50,7 @@ El proyecto simula una tienda online de estética capilar y corporal, con diseñ
 
 ## Trabajo colaborativo
 
-Este proyecto fue realizado en grupo. La estructura general, diseño y publicación fueron desarrollados por **Ruth Leila Gomez y Belkis Basualdo**.
+Este proyecto fue realizado en grupo. La estructura general, diseño y publicación y Base de Datos fueron desarrollados por **Ruth Leila Gomez y Belkis Basualdo ,Facundo Peña , Gabriel Cano , Alejandro Pacheco **.
 
 
 
