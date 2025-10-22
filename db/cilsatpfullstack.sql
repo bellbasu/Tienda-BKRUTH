@@ -1,4 +1,4 @@
--- TRABAJO GRUPAL -> Belkis Basualdo, Facundo Peña, Ruth Suga, Gabriel Cano, Alejandro Pacheco
+-- TRABAJO GRUPAL -> Belkis Basualdo, Facundo Peña, Ruth Gomez, Gabriel Cano, Alejandro Pacheco
 -- Creacion y uso de la tabla
 
 create database cilsatpfullstack;
